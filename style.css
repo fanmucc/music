@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+main {
+    width: 60%;
+    border: 1px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    background: rgb(42,170,253);
+    color: #fff;
+}
+main .icon-erji {
+    font-size: 50px;
+    display: inline-block;
+    float: left;
+    margin: 2% 0 0 2%;
+}
+main .btn {
+    margin-top: 13%;
+    margin-left: -5%;
+    float: left;
+}
+main .btn span {
+    padding: 10px;
+}
+main .btn span i {
+    font-size: 40px;
+}
+main .phs {
+    width: 60px;
+    height: 60px;
+    border: 1px solid;
+    float: left;
+    margin-top: 12%;
+    margin-bottom: 5%;
+}
+main .phs img {
+    width: 60px;
+    height: 60px;
+}
+
+main .progressBar {
+    float: left;
+    width: 50%;
+    margin-top: 13%;
+    margin-left: 3%;
+    
+}
+main .progressBar .xinXi {
+    float: left;
+}
+main .progressBar .time {
+    float: right;
+}
+main .progressBar .jinDu .jinDu-total {
+    margin-top: 10%;
+    width: 100%;
+    height: 3px;
+    border: 1px solid;
+    border-radius: 25px;
+    background: #ccc;
+}
+main .progressBar .jinDu .jinDu-now {
+    margin-top: -5px;
+    width: 0;
+    height: 3px;
+    border: 1px solid;
+    border-radius: 25px;
+    background: red;
+}
+.icon-liebiao {
+    float: left;
+    margin-top: 22%;
+    margin-left: -85%;
+}
+.liebiao {
+    margin-top: 25%;   
+}
+.liebiao li {
+    width: 100%;
+    border: 1px solid;
+    list-style: none;
+}
